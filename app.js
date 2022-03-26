@@ -32,7 +32,7 @@ switch (currentDay) {
   case 6:
     day = "Saturday";
 }
-res.render("list",{kingOfDay:day})
+res.render("list",{kindOfDay:day})
 })
 
 app.listen(process.env.PORT || 3000, ()=> console.log("Server working in port 3000"))
